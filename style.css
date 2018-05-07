@@ -6,3 +6,26 @@ body {
   font-family: "Circularstd book", sans-serif;
   font-size: 13px;
 }
+h2{
+    position: absolute;
+    left: 0px;
+    top: 51px;
+    right: 0px;
+    bottom: 0px;
+    overflow: visible;
+    height: 100%;
+}
+
+#palla{
+  background-color: #F67280;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  bottom: 20%;
+  right: 20%;
+  transform: translate();
+  border-radius: 50%;
+
+}
