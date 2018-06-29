@@ -1,11 +1,13 @@
 body {
   color: #323232;
-  background-color: #F0FFF3;
+  background-color: #FFFFFF;
   margin-left: 50px;
   margin-top: 50px;
-  font-family: "Circularstd book", sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 13px;
 }
+
+
 h2{
     position: absolute;
     left: 0px;
@@ -14,6 +16,29 @@ h2{
     bottom: 0px;
     overflow: visible;
     height: 100%;
+}
+
+#menu {
+  position: absolute;
+  width: 200px;
+  left: 0px;
+  top: 45px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  font-weight: bold;
+  line-height: 1.6;
+  font-size: 30px;
+  background-color: #FFFFFF;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+
+}
+
+
+#footer {
+  font-size: 10px;
 }
 
 #palla{
@@ -28,4 +53,133 @@ h2{
   transform: translate();
   border-radius: 50%;
 
+}
+
+.first {
+  border: 1px solid green;
+  background-color: #F67280;
+  width: 500px;
+  left: 300px;
+}
+
+
+#Mailing_address {
+  font-size: 50px;
+  font-style: italic;
+}
+
+
+#slider {
+  overflow: scroll;
+  position: fixed;
+  float: left;
+  left: 100px;
+  top: 50px;
+  right: -100px;
+  bottom: 0px;
+  height: 100%;
+  width: auto;
+  mix-blend-mode: color-burn;
+  mix-blend-mode:saturation;
+
+}
+
+#slider figure img {
+
+  height: 82%;
+}
+
+
+#slider figure {
+  width: 300px;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  top: 20px;
+  left: 200px;
+}
+
+#slidercontacts {
+  position: absolute;
+  width: 200px;
+  top: 45px;
+  right: 0px;
+  line-height: 1.4;
+  bottom: 0px;
+  height: 100%;
+  background-color: #FFFFFF;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 200px;
+  left: 700px;
+  top: 50px;
+  right: -100px;
+  width: 80px;
+  mix-blend-mode: color-burn;
+  mix-blend-mode:saturation;
+
+}
+
+#slidercontacts figure img {
+
+  height: 82%;
+}
+
+
+#slidercontacts figure {
+  width: 300px;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  top: 20px;
+  left: 200px;
+}
+
+#slidercontatti {
+  position: absolute;
+  width: 200px;
+  left: 0px;
+  top: 45px;
+  right: 0px;
+  line-height: 1.4;
+  bottom: 0px;
+  height: 100%;
+  background-color: #FFFFFF;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 200px;
+  left: 100px;
+  top: 50px;
+  right: -100px;
+  width: 80px;
+  mix-blend-mode: color-burn;
+  mix-blend-mode:saturation;
+
+}
+
+#slidercontatti figure img {
+
+  height: 82%;
+}
+
+
+#slidercontatti figure {
+  width: 300px;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  top: 20px;
+  left: 200px;
+}
+
+h1{
+  font-weight: 2200;
+  font-size: 20px;
+  position: relative;
+  left: -10px;
+  top: -30px;
+  right: 0px;
+  bottom: 0px;
+  overflow: visible;
+  height: 100%;
 }
