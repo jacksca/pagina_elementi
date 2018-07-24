@@ -7,6 +7,12 @@ body {
   font-size: 13px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 #ambiti {
   position: absolute;
   width: 200px;
@@ -21,6 +27,7 @@ body {
   font-family: 'Archivo', sans-serif;
   font-size: 20px;
   overflow: hidden;
+
 }
 
 #menu-narrow {
@@ -48,22 +55,26 @@ body {
 
 #slider {
   overflow: scroll;
-  position: fixed;
+  position: absolute;
   float: left;
   left: 100px;
   top: 50px;
-  right: -100px;
+
   bottom: 0px;
   height: 100%;
-  width: auto;
+  width: 1320px;
   mix-blend-mode: color-burn;
   mix-blend-mode:saturation;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+
 
 }
 
 #slider figure img {
 
   height: 82%;
+
 }
 
 
@@ -71,9 +82,11 @@ body {
   width: 300px;
   position: relative;
   width: 500%;
-  margin: 0;
+
   top: 20px;
   left: 200px;
+
+
 }
 
 #slidercontacts {
