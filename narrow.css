@@ -44,36 +44,20 @@ a {
   display: none;
 }
 
-#slider {
+.scrolling-wrapper {
+
   overflow: scroll;
   position: absolute;
   float: left;
   left: 0px;
-  top: 50px;
+  align-content: center;
+  top: 100px;
   right: 0px;
   scroll-behavior: smooth;
   white-space: nowrap;
-  overflow-x: scroll;
 
 }
 
-#slider figure img {
-  max-width: 900px;
-  max-height: 320px;
-}
-
-
-#slider figure {
-  width: 300px;
-  position: relative;
-  width: 500%;
-  margin: 0;
-  top: 20px;
-  left: 0px;
-  height: 900px;
-  box-sizing: border-box;
-
-}
 
 #slidercontacts {
   position: absolute;
