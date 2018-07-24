@@ -1,69 +1,63 @@
 body {
   color: #323232;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-left: 50px;
   margin-top: 50px;
   font-family: 'Archivo', sans-serif;
-  font-size: 13px;
+
 }
 
-#ambiti {
+
+
+
+#menu-narrow {
   position: absolute;
   width: 200px;
   left: 0px;
-  top: 45px;
+  top: 10px;
   right: 0px;
   bottom: 0px;
-  height: 100%;
+  height: 40px;
   font-weight: bold;
   line-height: 1.6;
+  font-size: 13px;
   background-color: #FFFFFF;
   font-family: 'Archivo', sans-serif;
-  font-size: 20px;
-  overflow: hidden;
-}
+  overflow: scroll;
+  float: left;
+  display: inline;
 
-#menu-narrow {
+}
+  dl {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  dd {
+      display: inline;
+  }
+
+
+#ambiti {
   display: none;
 }
 
-#footer {
-  font-size: 10px;
-}
-
-
-.first {
-  border: 1px solid green;
-  background-color: #F67280;
-  width: 500px;
-  left: 300px;
-}
-
-
-#Mailing_address {
-  font-size: 50px;
-  font-style: italic;
-}
-
-
 #slider {
   overflow: scroll;
-  position: fixed;
+  position: absolute;
   float: left;
-  left: 100px;
+  left: 0px;
   top: 50px;
-  right: -100px;
-  bottom: 0px;
+  right: 0px;
+  bottom:
   height: 100%;
-  width: auto;
-  mix-blend-mode: color-burn;
-  mix-blend-mode:saturation;
 
 }
 
 #slider figure img {
-
-  height: 82%;
+  max-width: 900px;
+  max-height: 320px;
 }
 
 
@@ -73,7 +67,10 @@ body {
   width: 500%;
   margin: 0;
   top: 20px;
-  left: 200px;
+  left: 0px;
+  height: 900px;
+  box-sizing: border-box;
+
 }
 
 #slidercontacts {

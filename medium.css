@@ -1,0 +1,12 @@
+body {
+  color: #323232;
+  background-color: #d56073;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+}
+
+#menu {
+  display: none;
+}
