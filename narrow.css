@@ -45,8 +45,10 @@ a {
 }
 
 .scrolling-wrapper {
-
-  overflow: scroll;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: auto;
+  overflow-x: scroll;
   position: absolute;
   float: left;
   left: 0px;
@@ -55,9 +57,15 @@ a {
   right: 0px;
   scroll-behavior: smooth;
   white-space: nowrap;
-
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+   display: none;
+ }
 }
 
+img {
+    max-height: 60%;
+}
 
 #slidercontacts {
   position: absolute;
