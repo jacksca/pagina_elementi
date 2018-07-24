@@ -14,8 +14,8 @@ a {
 #menu-narrow {
   position: absolute;
   width: 200px;
-  left: 0px;
-  top: 10px;
+  left: 170px;
+  top: 60%; per farlo comparire mettere 70 ecc
   right: 0px;
   bottom: 0px;
   height: 40px;
@@ -23,10 +23,8 @@ a {
   line-height: 1.6;
   font-size: 13px;
   background-color: #FFFFFF;
+  display: block;
   font-family: 'Archivo', sans-serif;
-  overflow: scroll;
-  float: left;
-  display: inline;
 
 }
   dl {
@@ -45,6 +43,7 @@ a {
 }
 
 .scrolling-wrapper {
+
   height: 100%;
   margin-left: 20px;
   margin-right: auto;
@@ -65,6 +64,7 @@ a {
 
 img {
     max-height: 60%;
+    display:
 }
 
 #slidercontacts {
@@ -144,7 +144,7 @@ h1{
   font-weight: 2200;
   font-size: 20px;
   position: relative;
-  left: -10px;
+  left: -30px;
   top: -30px;
   right: 0px;
   bottom: 0px;
