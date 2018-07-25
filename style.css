@@ -12,15 +12,14 @@ a {
   color: inherit;
 }
 
-
-#ambiti {
+#menu {
   position: absolute;
-  width: 200px;
+  width: 180px;
   left: 0px;
   top: 45px;
   right: 0px;
   bottom: 0px;
-  height: 100%;
+  height: 89%;
   font-weight: bold;
   line-height: 1.6;
   background-color: #FFFFFF;
@@ -30,23 +29,37 @@ a {
 
 }
 
-#menu-narrow {
+span {
+display: none;
+}
+
+#mySidenav {
   display: none;
 }
 
+#scroller {
+  position: absolute;
+  width: 84.5%;
+  bottom: 10%;
+}
+
 #footer {
+  position: absolute;
+  bottom: 1px;
   font-size: 10px;
 }
 
 
 .scrolling-wrapper {
+  position: absolute;
+
   overflow-x: scroll;
   overflow-y: hidden;
   position: absolute;
   float: left;
   left: 200px;
-  top: 40px;
-  bottom: 0px;
+  top: 10%;
+  bottom: 10%;
   height: 85%;
   width: 1240px;
   mix-blend-mode: color-burn;

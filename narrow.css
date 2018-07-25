@@ -11,22 +11,6 @@ a {
   color: inherit;
 }
 
-#menu-narrow {
-  position: absolute;
-  width: 200px;
-  left: 170px;
-  top: 90%;
-  right: 0px;
-  bottom: 0px;
-  height: 40px;
-  font-weight: bold;
-  line-height: 1.6;
-  font-size: 13px;
-  background-color: #FFFFFF;
-  display: block;
-  font-family: 'Archivo', sans-serif;
-
-}
   dl {
       list-style-type: none;
       margin: 0;
@@ -44,7 +28,7 @@ a {
 
 .scrolling-wrapper {
   margin-left: 20px;
-  margin-right: auto;
+  margin-right: -50px;
   overflow-x: scroll;
   position: absolute;
   float: left;
@@ -62,6 +46,13 @@ a {
 
 img {
     height: 60%;
+}
+
+span {
+  position: absolute;
+  top: 25px;
+  right: -20px;
+
 }
 
 .sidenav {
@@ -179,7 +170,7 @@ img {
 
 h1{
   font-weight: 2200;
-  font-size: 20px;
+  font-size: 150%;
   position: relative;
   left: -30px;
   top: -15px;
