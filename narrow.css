@@ -22,6 +22,61 @@ a {
   }
 
 
+
+
+
+#swipe {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  right: 50%;
+  height: 10%;
+  width: 10%;
+
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#swipe {
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
+
   #menu {
     display: none;
   }
@@ -33,8 +88,9 @@ a {
   position: absolute;
   float: left;
   left: 0px;
+  width: 93%;
   align-content: center;
-  top: 100px;
+  top: 15%;
   right: 0px;
   scroll-behavior: smooth;
   white-space: nowrap;
@@ -51,7 +107,7 @@ img {
 span {
   position: absolute;
   top: 25px;
-  right: -20px;
+  right: 2%;
 
 }
 
@@ -67,6 +123,7 @@ span {
     transition: 0.5s;
     padding-top: 60px;
 }
+
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
