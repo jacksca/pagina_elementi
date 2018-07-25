@@ -22,10 +22,9 @@ a {
       display: inline;
   }
 
-
-#menu {
-  display: none;
-}
+  #menu {
+    display: none;
+  }
 
 .scrolling-wrapper {
   margin-left: 20px;
