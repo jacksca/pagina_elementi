@@ -22,6 +22,40 @@ a {
       display: inline;
   }
 
+  #swipe {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    right: 50%;
+    height: 10%;
+    width: 10%;
+
+  }
+
+  @-webkit-keyframes blink {
+      0% {
+          opacity: 0.5;
+      }
+      50% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 0.5;
+      }
+  }
+
+
+  #swipe {
+      -webkit-animation: blink 2s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation: blink 2s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation: blink 2s;
+      -o-animation-iteration-count: infinite;
+
+  }
+
+
   #menu {
     display: none;
   }

@@ -37,44 +37,25 @@ a {
 
 @-webkit-keyframes blink {
     0% {
-        opacity: 1;
+        opacity: 0.5;
     }
     50% {
         opacity: 0;
     }
     100% {
-        opacity: 1;
+        opacity: 0.5;
     }
 }
-@-moz-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-o-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+
+
 #swipe {
-    -webkit-animation: blink 1s;
+    -webkit-animation: blink 2s;
     -webkit-animation-iteration-count: infinite;
-    -moz-animation: blink 1s;
+    -moz-animation: blink 2s;
     -moz-animation-iteration-count: infinite;
-    -o-animation: blink 1s;
+    -o-animation: blink 2s;
     -o-animation-iteration-count: infinite;
+
 }
 
   #menu {
@@ -90,7 +71,7 @@ a {
   left: 0px;
   width: 93%;
   align-content: center;
-  top: 15%;
+  top: 20%;
   right: 0px;
   scroll-behavior: smooth;
   white-space: nowrap;
@@ -107,7 +88,7 @@ img {
 span {
   position: absolute;
   top: 25px;
-  right: 2%;
+  right: 10%;
 
 }
 
