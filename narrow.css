@@ -15,7 +15,7 @@ a {
   position: absolute;
   width: 200px;
   left: 170px;
-  top: 60%; per farlo comparire mettere 70 ecc
+  top: 90%;
   right: 0px;
   bottom: 0px;
   height: 40px;
@@ -43,8 +43,6 @@ a {
 }
 
 .scrolling-wrapper {
-
-  height: 100%;
   margin-left: 20px;
   margin-right: auto;
   overflow-x: scroll;
@@ -63,9 +61,48 @@ a {
 }
 
 img {
-    max-height: 60%;
-    display:
+    height: 60%;
 }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 
 #slidercontacts {
   position: absolute;
@@ -145,7 +182,7 @@ h1{
   font-size: 20px;
   position: relative;
   left: -30px;
-  top: -30px;
+  top: -15px;
   right: 0px;
   bottom: 0px;
   overflow: visible;

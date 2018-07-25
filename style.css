@@ -47,7 +47,7 @@ a {
   left: 200px;
   top: 40px;
   bottom: 0px;
-  height: 100%;
+  height: 85%;
   width: 1240px;
   mix-blend-mode: color-burn;
   mix-blend-mode:saturation;
@@ -57,6 +57,12 @@ a {
   &::-webkit-scrollbar {
    display: none;
  }
+}
+
+img {
+    object-fit: contain;
+    height: 100%;
+
 }
 
 #slidercontacts {
