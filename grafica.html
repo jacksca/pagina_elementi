@@ -6,33 +6,22 @@
 
 	<title>Grafica • jacksca</title>
 
-<link href="style.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="screen and (max-width: 700px)" href="narrow.css" />
+  <link rel="stylesheet" media="screen and (min-width: 701px)" href="medium.css" />
+  <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css" />
 
 </head>
 
 <h1 id="titolo"> <a href="index.html"> jacksca </a> </h1>
 
-
 <div id="menu">
-  <dl>
-    <dd> grafica </dd>
-    <dd> <a href="video.html"> video </a> </dd>
-    <dd> <a href="articoli.html">articoli </a> </dd>
-    <dd> <a href="contatti.html">contatti </a> </dd>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <dd> <div id="footer">
+  <ul style="list-style-type:none">
+    <li> <a>grafica </a> </li>
+    <li> <a href="video.html"> video </li>
+    <li> <a href="articoli.html">articoli </a> </li>
+    <li> <a href="contatti.html">contatti </a> </li>
+
+    <li> <div id="footer">
       ---
       <br>
       Elementi di Informatica
@@ -41,16 +30,27 @@
       Politecnico di Milano
       AA 17/18
       <br>
-  </dd> </div>
-  </dl>
+  </li> </div>
+</ul>
 </div>
 
 <body>
-  <div class="scrolling-wrapper">
+
+  <div id="scroller" class="scrolling-wrapper">
     <img src="images/Banner1_copy.jpg">
     <img src="images/Banner1_copy copy.jpg">
     <img src="images/009 copy.jpg">
   </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="grafica.html">grafica</a>
+    <a href="video.html">video</a>
+    <a href="articoli.html">articoli</a>
+    <a href="contatti.html">contatti</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 </body>
 
 </html>

@@ -5,39 +5,37 @@
   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 
 	<title>Articoli • jacksca</title>
-
   <link rel="stylesheet" media="screen and (max-width: 700px)" href="narrow.css" />
   <link rel="stylesheet" media="screen and (min-width: 701px)" href="medium.css" />
   <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css" />
-</head>
 
-<h1 id="titolo"> <a href="index.html"> jacksca </a> </h1>
+  <link rel="apple-touch-icon" href="favicon da mettere!!!">
+
+  <script>
+
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+
+  </script>
+
+  </head>
+
+  <h1 id="titolo"> jacksca </h1>
 
 
+  <div id="menu">
+  <ul style="list-style-type:none">
+    <li> <a href="grafica.html">grafica </a> </li>
+    <li> <a href="video.html"> video </li>
+    <li> <a href="articoli.html">articoli </a> </li>
+    <li> <a href="contatti.html">contatti </a> </li>
 
-
-
-
-<div id="menu">
-  <dl>
-    <dd> <a href="grafica.html">grafica </dd>
-    <dd> <a href="video.html"> video </a> </dd>
-    <dd> articoli </dd>
-    <dd> <a href="contatti.html">contatti </a> </dd>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <dd> <div id="footer">
+    <li> <div id="footer">
       ---
       <br>
       Elementi di Informatica
@@ -46,16 +44,36 @@
       Politecnico di Milano
       AA 17/18
       <br>
-  </dd> </div>
-  </dl>
-</div>
+  </li> </div>
+  </ul>
+  </div>
 
-<body>
-  <div class="scrolling-wrapper">
-    <img src="images/Banner1_copy.jpg">
+  <body>
+
+  <div id="scroller" class="scrolling-wrapper">
+    <a href="http://www.clubberconfession.com/lharmonized-club-e-ricardo-villalobos-nelle-marche-la-nostra-confessione/" target="_blank">
+    <img src="images/villalobos-harmonized.jpg"></a>
     <img src="images/Banner1_copy copy.jpg">
     <img src="images/009 copy.jpg">
   </div>
-</body>
 
-</html>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="grafica.html">grafica</a>
+    <a href="video.html">video</a>
+    <a href="articoli.html">articoli</a>
+    <a href="contatti.html">contatti</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <div class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+
+
+  </body>
+
+  </html>
