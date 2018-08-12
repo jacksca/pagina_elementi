@@ -7,9 +7,23 @@ body {
   font-size: 13px;
 }
 
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.artecinema {
+  background-color: #000000;
+  position:fixed;
+  top:15%;
+  left:15%;
+  width:70%;
+  height:70%;"
+}
+
+#menuplayer {
+  display: none;
 }
 
 #menu {

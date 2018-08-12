@@ -4,13 +4,26 @@
   <meta name="viewport" content="width=device-width", initial-scale=1.0>
   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 
-	<title>Articoli • jacksca</title>
+	<title>Arte/Cinema • jacksca</title>
   <link rel="stylesheet" media="screen and (max-width: 700px)" href="narrow.css" />
   <link rel="stylesheet" media="screen and (min-width: 701px)" href="medium.css" />
   <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css" />
 
   <link rel="apple-touch-icon" href="favicon da mettere!!!">
 
+  <!DOCTYPE html>
+  <html>
+  <head>
+
+  <style>
+   body {
+     background-color: #000000;
+     color: #ffffff; 
+   }
+  </style>
+
+  </head>
+  </html>
   <script>
 
   function openNav() {
@@ -23,12 +36,24 @@
 
   </script>
 
+<div id=player class="artecinema">
+  <p>
+    <div style="padding:56.25% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/253754540?color=ffffff&title=0&byline=0&portrait=0"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+</p>
+</div>
+
+
   </head>
 
   <h1 id="titolo"> <a href="index.html"> jacksca </a></h1>
 
 
-  <div id="menu">
+  <div id="menuplayer">
   <ul style="list-style-type:none">
     <li> <a href="grafica.html">grafica </a> </li>
     <li> <a href="foto.html">foto </a> </li>
@@ -51,40 +76,22 @@
 
   <body>
 
-  <div id="scroller" class="scrolling-wrapper">
-    <img src="images/semaforo.jpg">
-    <img src="images/aalto.jpg">
-    <img src="images/idrante.jpg">
-    <img src="images/legno.jpg">
-    <img src="images/gae.jpg">
-    <img src="images/pista.jpg">
-    <img src="images/finestre.jpg">
-    <img src="images/tropical.jpg">
-    <img src="images/piola.jpg">
-    <img src="images/d2.jpg">
-    <img src="images/colonne.jpg">
-    <img src="images/bmw.jpg">
-    <img src="images/navigli.jpg">
-
-  </div>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="grafica.html">grafica</a>
-    <a href="foto.html">foto</a>
-    <a href="video.html">video</a>
-    <a href="articoli.html">articoli</a>
-    <a href="contatti.html">contatti</a>
-  </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="grafica.html">grafica</a>
+      <a href="foto.html">foto</a>
+      <a href="video.html">video</a>
+      <a href="articoli.html">articoli</a>
+      <a href="contatti.html">contatti</a>
+    </div>
 
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
-  <div id="swipe" class"blinking-icon">
-    <img src="images/swipe left.png">
-  </div>
-
+    <div id="swipe" class"blinking-icon">
+      <img src="images/swipe left.png">
+    </div>
 
   </body>
 
-  </html>
+    </html>
