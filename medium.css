@@ -4,6 +4,7 @@ body {
   margin-left: 50px;
   margin-top: 50px;
   font-family: 'Archivo', sans-serif;
+
 }
 
 a {
@@ -55,10 +56,20 @@ a {
 
   }
 
+  #menuplayer {
+    display: none;
+  }
 
   #menu {
     display: none;
   }
+
+  #player {
+    position: relative;
+    top: 20%;
+    left: -5%;
+  }
+
 
 .scrolling-wrapper {
   margin-left: 20px;
@@ -115,10 +126,11 @@ span {
     color: #f1f1f1;
 }
 
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 10%;
     font-size: 36px;
     margin-left: 50px;
 }
@@ -128,78 +140,21 @@ span {
   .sidenav a {font-size: 18px;}
 }
 
-
-#slidercontacts {
+#contatti {
   position: absolute;
-  width: 200px;
-  top: 45px;
-  right: 0px;
-  line-height: 1.4;
-  bottom: 0px;
-  height: 100%;
-  background-color: #FFFFFF;
-  text-align: justify;
-  text-justify: inter-word;
-  max-width: 200px;
-  left: 700px;
-  top: 50px;
-  right: -100px;
-  width: 80px;
-  mix-blend-mode: color-burn;
-  mix-blend-mode:saturation;
-
+  top: 20%;
+  left: -3%;
+  font-size: 60px;
 }
 
-#slidercontacts figure img {
-
-  height: 82%;
-}
-
-
-#slidercontacts figure {
-  width: 300px;
-  position: relative;
-  width: 500%;
-  margin: 0;
-  top: 20px;
-  left: 200px;
-}
-
-#slidercontatti {
-  position: absolute;
-  width: 200px;
-  left: 0px;
-  top: 45px;
-  right: 0px;
-  line-height: 1.4;
-  bottom: 0px;
-  height: 100%;
-  background-color: #FFFFFF;
-  text-align: justify;
-  text-justify: inter-word;
-  max-width: 200px;
-  left: 100px;
-  top: 50px;
-  right: -100px;
-  width: 80px;
-  mix-blend-mode: color-burn;
-  mix-blend-mode:saturation;
-
-}
-
-#slidercontatti figure img {
-
-  height: 82%;
-}
-
-
-#slidercontatti figure {
-  width: 300px;
-  position: relative;
-  width: 500%;
-  margin: 0;
-  top: 20px;
-  left: 200px;
+#indietro {
+  position: fixed;
+  max-height: 40px;
+  max-width: 40px;
+  z-index: 1;
+  left: 30;
+  top: -5;
+  font-size: 40px;
 }
 
 h1{
@@ -208,6 +163,8 @@ h1{
   position: relative;
   left: -30px;
   top: -15px;
+  max-width: 50px;
+  max-height: 50px;
   right: 0px;
   bottom: 0px;
   overflow: visible;
