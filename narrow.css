@@ -107,6 +107,7 @@ span {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    z-index: 1002;
 }
 
 
@@ -155,10 +156,23 @@ span {
 }
 
 #contatti {
+  display: none;
+}
+
+#contattidx {
+  display: none;
+}
+
+#contattimobile {
   position: absolute;
-  top: 15%;
-  left: -5%;
-  font-size: 60px;
+  top: 10%;
+  left: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 460px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 h1{
@@ -209,10 +223,6 @@ h1{
   animation-delay: -0.9s;
 }
 
-.spinner .rect5 {
-  -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
-}
 
 @-webkit-keyframes sk-stretchdelay {
   0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
@@ -223,9 +233,9 @@ h1{
 
 #loader {
     display: block;
-    position: relative;
-    left: 0%;
-    top: 50%;
+    position: fixed;
+    left: 2%;
+    top: 20%;
 
     z-index: 1001;
 }
@@ -245,13 +255,11 @@ h1{
 
 #loader-wrapper .loader-section {
     position: fixed;
-    top: 0;
+    top: 20%;
     width: 51%;
-    height: 700%;
+    height: 70%;
     background: #ffffff;
     z-index: 1000;
-    max-height: 568px;
-    overflow: hidden;
 }
 
 #loader-wrapper .loader-section.section-left {
