@@ -170,3 +170,120 @@ h1{
   overflow: visible;
   height: 100%;
 }
+
+
+.spinner {
+  margin: 100px auto;
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+
+
+#loader {
+    display: block;
+    position: relative;
+    left: 0%;
+    top: 50%;
+
+    z-index: 1001;
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+    }
+
+
+
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: -60%;
+    width: 51%;
+    height: 700%;
+    background: #ffffff;
+    z-index: 1000;
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+
+}
+
+/*loaded styles */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX (-100%);
+    transform: translateX(-100%);
+
+    -webkit-transition: all 0.3s 0.3s ease-out;
+            transition: all 0.3s 0.3s ease-out;
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX (100%);
+    transform: translateX(100%);
+
+    -webkit-transition: all 0.3s 0.3s ease-out;
+            transition: all 0.3s 0.3s ease-out;
+}
+
+.loader #loader {
+  opacity: 0;
+
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+}

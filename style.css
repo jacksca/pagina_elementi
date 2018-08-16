@@ -120,10 +120,17 @@ h1{
   left: 15%;
 }
 
+
+h1 {
+    color: #EEEEEE;
+}
+
 .spinner {
   margin: 100px auto;
-  width: 50px;
-  height: 40px;
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+  overflow: hidden;
   text-align: center;
   font-size: 10px;
 }
@@ -131,7 +138,7 @@ h1{
 .spinner > div {
   background-color: #333;
   height: 100%;
-  width: 6px;
+  width: 20%;
   display: inline-block;
 
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
@@ -163,12 +170,79 @@ h1{
   20% { -webkit-transform: scaleY(1.0) }
 }
 
-@keyframes sk-stretchdelay {
-  0%, 40%, 100% {
-    transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-  }  20% {
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
-  }
+
+
+#loader {
+    display: block;
+    position: relative;
+    left: 0%;
+    top: 50%;
+
+    z-index: 1001;
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+    }
+
+
+
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: -60%;
+    width: 51%;
+    height: 700%;
+    background: #ffffff;
+    z-index: 1000;
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+
+}
+
+/*loaded styles */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX (-100%);
+    transform: translateX(-100%);
+
+    -webkit-transition: all 0.3s 0.3s ease-out;
+            transition: all 0.3s 0.3s ease-out;
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX (100%);
+    transform: translateX(100%);
+
+    -webkit-transition: all 0.3s 0.3s ease-out;
+            transition: all 0.3s 0.3s ease-out;
+}
+
+.loader #loader {
+  opacity: 0;
+
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+}
+
+#content {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 967px;
 }
