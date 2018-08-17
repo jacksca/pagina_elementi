@@ -81,12 +81,53 @@ a {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
-   display: none;
+    display: none;
  }
+}
+
+.scroller-impaginati {
+  position: absolute;
+  left: 8%;
+  width: 93%;
+  height: auto;
+  overflow-x: scroll;
+  float: left;
+  align-content: center;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+   }
+
+}
+
+
+
+.images {
+  position: relative;
+  right: 5%;
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.spiega {
+  font-size: 10px;
+  max-width: 500px;
+}
+
+#testo {
+  position: relative;
+  font-size: 13px;
+  left: -5%;
+  max-width: 400px;
 }
 
 img {
     height: 60%;
+    width: auto;
 }
 
 span {
@@ -102,7 +143,7 @@ span {
     position: fixed;
     z-index: 1;
     right: 0;
-    top: 0;
+    top: -10px;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -137,9 +178,18 @@ span {
   .sidenav a {font-size: 18px;}
 }
 
-
-
 #indietro {
+  position: fixed;
+  max-height: 30px;
+  max-width: 40px;
+  z-index: 1;
+  left: 0%;
+  top: 0%;
+  font-size: 30px;
+}
+
+
+#indietroplayer {
   position: fixed;
   max-height: 30px;
   max-width: 40px;
@@ -152,6 +202,11 @@ span {
 #player {
   position: relative;
   top: 20%;
+  left: -8%;
+}
+
+#playerspiega {
+  position: relative;
   left: -8%;
 }
 
