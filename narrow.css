@@ -22,9 +22,6 @@ a {
   }
 
 
-
-
-
 #swipe {
   position: absolute;
   bottom: 5%;
@@ -234,11 +231,13 @@ h1{
   font-weight: 2200;
   font-size: 150%;
   position: relative;
+  max-height: 300px;
+  overflow-y: hidden;
   left: -30px;
   top: -15px;
   right: 0px;
   bottom: 0px;
-  overflow: visible;
+  overflow: hidden;
   height: 100%;
 }
 
@@ -310,15 +309,16 @@ h1{
 
 #loader-wrapper .loader-section {
     position: fixed;
-    top: 20%;
+    top: 11%;
     width: 51%;
-    height: 70%;
+    height: 83%;
     background: #ffffff;
     z-index: 1000;
 }
 
 #loader-wrapper .loader-section.section-left {
     left: 0;
+
 
 }
 
@@ -328,6 +328,7 @@ h1{
 }
 
 /*loaded styles */
+
 .loaded #loader-wrapper .loader-section.section-left {
     -webkit-transform: translateX (-100%);
     transform: translateX(-100%);

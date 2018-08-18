@@ -114,8 +114,17 @@ h1{
   height: 100%;
 }
 
+.web {
+  position: fixed;
+  top: -120%;
+  left:30%;
+}
+
 #contatti {
   position: absolute;
+  top: 5%;
+  left: 30%;
+  font-size: 90px;
   top: 0%;
   left: 20%;
   font-size: 15px;
@@ -128,7 +137,7 @@ h1{
 #contattidx {
   position: absolute;
   top: 0;
-  left: 60%;
+  left: 0%;
   font-size: 15px;
   line-height: 1.6;
   text-align: justify;
@@ -138,7 +147,13 @@ h1{
 }
 
 #contattimobile {
-  display: none;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  height: 100%;
+  width: auto;
+  max-height: 580px;
+  overflow-y: scroll;
 }
 
 
@@ -183,7 +198,7 @@ h1{
 
 
 .spinner {
-
+  z-index:1010;
   margin: 100px auto;
   width: 300px;
   height: 300px;
@@ -232,12 +247,11 @@ h1{
 
 #loader {
     display: block;
-    position: relative;
-    left: 0%;
-    top: 50%;
-
+    position: fixed;
+    left: 40%;
+    top: 30%;
     z-index: 1001;
-}
+    }
 
     #loader:before {
         content: "";
@@ -254,9 +268,9 @@ h1{
 
 #loader-wrapper .loader-section {
     position: fixed;
-    top: 10%;
+    top: 8%;
     width: 51%;
-    height: 90%;
+    height: 100%;
     background: #ffffff;
     z-index: 1000;
 }
