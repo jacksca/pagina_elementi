@@ -156,7 +156,6 @@ h1{
   overflow-y: scroll;
 }
 
-
 #player {
   position: relative;
   top: 8%;
@@ -166,7 +165,7 @@ h1{
 #playerspiega {
   position: relative;
   top: 8%;
-  left: 8%;
+  left: 6%;
   width: 80%;
   height: auto;
 }
