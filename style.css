@@ -74,17 +74,14 @@ display: none;
 
 .scrolling-wrapper {
   position: absolute;
-
-  overflow-x: scroll;
-  overflow-y: hidden;
-  position: absolute;
-  float: left;
-  left: 200px;
+  left: 15%;
   top: 10%;
   bottom: 10%;
   height: 85%;
-  mix-blend-mode: color-burn;
-  mix-blend-mode:saturation;
+  width: auto;
+  overflow-x: scroll;
+  float: left;
+  align-content: center;
   scroll-behavior: smooth;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
@@ -96,6 +93,7 @@ display: none;
 img {
     object-fit: contain;
     height: 100%;
+
 }
 
 #swipe {
