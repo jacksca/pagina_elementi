@@ -145,7 +145,7 @@ span {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: #111;
+    background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -156,8 +156,8 @@ span {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 30px;
+    color: #000000;
     display: block;
     transition: 0.3s;
 }
@@ -170,9 +170,15 @@ span {
     position: absolute;
     top: 20;
     right: 25px;
-    font-size: 36px;
+    font-size: 150%;
     margin-left: 50px;
 }
+
+.openbtn {
+    font-size:300%;
+    top: 5%;
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -232,16 +238,11 @@ span {
   padding-left: 5%;
 }
 
-h1{
-  font-weight: 2200;
-  font-size: 150%;
-  position: relative;
-  left: -30px;
-  top: -15px;
-  right: 0px;
-  bottom: 0px;
-  overflow: visible;
-  height: 100%;
+#titolo{
+  position: absolute;
+  max-height: 200px;
+  left: 5%;
+  top: 3%;
 }
 
 .spinner {

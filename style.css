@@ -167,9 +167,9 @@ h1{
 }
 
 #titolo {
-  position: absolute;
-  top: 0.5%;
-  left: 2%;
+  position: relative;
+  top: -6%;
+  left: -1.5%;
   width: 8%;
   height: 8%;
   z-index: 1013;
