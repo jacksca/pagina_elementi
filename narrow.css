@@ -139,8 +139,8 @@ span {
     width: 0;
     position: fixed;
     z-index: 1;
-    right: 0;
-    top: -10px;
+    right: -15%;
+    top: 0%;
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
@@ -164,10 +164,9 @@ span {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 20;
-    right: 25px;
+    top: 3.5%;
+    left: 40%;
     font-size: 36px;
-    margin-left: 50px;
 }
 
 .openbtn {
@@ -237,6 +236,7 @@ span {
   max-height: 100px;
   left: 5%;
   top: 4%;
+  z-index: 900;
 }
 
 .spinner {
