@@ -3,7 +3,7 @@ body {
   background-color: #FFFFFF;
   margin-left: 50px;
   margin-top: 50px;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Favorit', sans-serif;
   font-size: 13px;
 }
 
@@ -44,7 +44,7 @@ a {
   font-weight: bold;
   line-height: 1.6;
   background-color: #FFFFFF;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Favorit', sans-serif;
   font-size: 20px;
   z-index: 1003;
 }
@@ -245,6 +245,12 @@ h1{
   20% { -webkit-transform: scaleY(1.0) }
 }
 
+@font-face {
+    font-family: 'Favorit';
+    src: url('Favorit-Light.woff2') format('woff2'),
+        url('Favorit-Light.woff') format('woff');
+    font-style: normal;
+}
 
 
 #loader {
