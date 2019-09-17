@@ -3,7 +3,7 @@ body {
   background-color: #ffffff;
   margin-left: 50px;
   margin-top: 50px;
-  font-family: 'Favorit', sans-serif;
+  font-family: 'Archivo', sans-serif;
 }
 
 a {
@@ -75,7 +75,7 @@ a {
   left: 0px;
   width: 93%;
   align-content: center;
-  top: 23%;
+  top: 20%;
   right: 0px;
   scroll-behavior: smooth;
   white-space: nowrap;
@@ -245,9 +245,9 @@ span {
 .spinner {
   position: fixed;
   top: 0;
-  width: 100px;
-  height: 100px;
-  max-height: 100px;
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
   overflow: hidden;
   text-align: center;
   font-size: 10px;
@@ -289,8 +289,8 @@ span {
 #loader {
     display: block;
     position: fixed;
-    left: 10%;
-    top: 8%;
+    left: 2%;
+    top: 20%;
 
     z-index: 1001;
 }
@@ -310,8 +310,8 @@ span {
 
 #loader-wrapper .loader-section {
     position: fixed;
-    top: 34%;
-    width: 41%;
+    top: 14%;
+    width: 51%;
     height: 83%;
     background: #ffffff;
     z-index: 1000;
