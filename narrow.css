@@ -311,8 +311,8 @@ span {
 #loader-wrapper .loader-section {
     position: fixed;
     top: 34%;
-    width: 31%;
-    height: 63%;
+    width: 41%;
+    height: 83%;
     background: #ffffff;
     z-index: 1000;
 }
