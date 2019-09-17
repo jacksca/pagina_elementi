@@ -75,7 +75,7 @@ a {
   left: 0px;
   width: 93%;
   align-content: center;
-  top: 20%;
+  top: 23%;
   right: 0px;
   scroll-behavior: smooth;
   white-space: nowrap;
@@ -311,8 +311,8 @@ span {
 #loader-wrapper .loader-section {
     position: fixed;
     top: 14%;
-    width: 51%;
-    height: 83%;
+    width: 31%;
+    height: 63%;
     background: #ffffff;
     z-index: 1000;
 }
