@@ -290,7 +290,7 @@ span {
     display: block;
     position: fixed;
     left: 10%;
-    top: 10%;
+    top: 8%;
 
     z-index: 1001;
 }
