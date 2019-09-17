@@ -21,6 +21,9 @@ a {
       display: inline;
   }
 
+#footer {
+  visibility: hidden;
+}
 
 #swipe {
   position: absolute;
