@@ -289,8 +289,8 @@ span {
 #loader {
     display: block;
     position: fixed;
-    left: 2%;
-    top: 20%;
+    left: 10%;
+    top: 30%;
 
     z-index: 1001;
 }
@@ -310,7 +310,7 @@ span {
 
 #loader-wrapper .loader-section {
     position: fixed;
-    top: 14%;
+    top: 34%;
     width: 31%;
     height: 63%;
     background: #ffffff;
