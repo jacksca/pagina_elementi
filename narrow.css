@@ -319,13 +319,13 @@ span {
 }
 
 #loader-wrapper .loader-section.section-left {
-    left: 10%;
+    left: 0;
 
 
 }
 
 #loader-wrapper .loader-section.section-right {
-    right: 10%;
+    right: 0;
 
 }
 
