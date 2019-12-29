@@ -12,24 +12,7 @@
 
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-  <script>
 
-  function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-  }
-
-  function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-  }
-
-  </script>
-
-  <script>
-		window.addEventListener("load", function(){
-			$("#loader-wrapper").fadeOut(500)
-
-		});
-		</script>
 
 
   </head>
@@ -41,13 +24,20 @@
 
   <div id="menu">
     <ul style="list-style-type:none">
-      <li> <a href="grafica"> graphics </a> </li>
-      <li> <a href="foto"> photos </a> </li>
-      <li> <a href="video"> videos </li>
-      <li> <a href="articoli">articles</a> </li>
-      <li> <a href="chisono">about me</a> </li>
+      <li> <a href="graphics.html"> graphics </a> </li>
+      <li> <a href="photos.html"> photos </a> </li>
+      <li> <a href="videos.html"> videos </li>
+      <li> <a href="articles.html">articles</a> </li>
   </ul>
   </div>
+
+<div id="email">
+  <ul style="list-style-type:none">
+    <li> <a href="about.html">about </a> </li>
+    <li><a href="mailto:jack.scavino@gmail.com"> email </a></li>
+    </ul>
+  </div>
+
 
   <body>
 
@@ -63,19 +53,13 @@
   </div>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="">grafica</a>
-    <a href="foto.html">foto</a>
-    <a href="video.html">video</a>
-    <a href="articoli.html">articoli</a>
-    <a href="chisono.html">chi sono</a>
+    <a href="graphics.html">grafica</a>
+    <a href="photos.html">foto</a>
+    <a href="videos.html">video</a>
+    <a href="articles.html">articoli</a>
+    <a href="about.html">chi sono</a>
   </div>
 
-  <li> <div id="footer">
-    <br> <a href="mailto:jack.scavino@gmail.com"> email <br>
-    <a href="http://www.instagram.com/jacksca" target="_blank"> instagram <br>
-    <a href="https://vimeo.com/jacksca" target="_blank"> vimeo <br>
-    </li>
-  </div>
 
 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
@@ -84,18 +68,7 @@
     <img src="images/swipe.png">
   </div>
 
-  <div id="loader-wrapper">
-    <div id="loader" class="spinner">
-      <div class="rect1"></div>
-      <div class="rect2"></div>
-      <div class="rect3"></div>
-      <div class="rect4"></div>
-      <div class="rect5"></div>
-    </div>
 
-      <div class="loader-section section-left"></div>
-      <div class="loader-section section-right"></div>
-  </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
