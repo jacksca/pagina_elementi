@@ -22,6 +22,14 @@ a {
   height:70%;"
 }
 
+.about {
+  position:fixed;
+  top:7%;
+  left:15%;
+  width:70%;
+  height:70%;"
+}
+
 #testo {
   font-size: 20px;
   left: 10%;
@@ -32,20 +40,43 @@ a {
   display: none;
 }
 
+#titolo {
+  position: relative;
+  top: -5%;
+  left: -2%;
+  width: 7%;
+  height: 7%;
+  z-index: 1013;
+}
+
 #menu {
   display: block;
   position: absolute;
-  width: 180px;
-  left: 0px;
-  top: 45px;
+  width: 100px;
+  left: -1%;
   right: 0px;
-  bottom: 0px;
-  height: 89%;
-  font-weight: bold;
+  top: 7%;
+  font-weight: lighter;
   line-height: 1.6;
   background-color: #FFFFFF;
   font-family: 'Favorit', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
+  z-index: 1003;
+}
+
+#email {
+  display: block;
+  position: absolute;
+  width: 100px;
+  left: -1%;
+  right: 0px;
+  bottom: 2%;
+  font-weight: lighter;
+  line-height: 1.6;
+  background-color: #FFFFFF;
+  background-blend-mode: color-dodge;
+  font-family: 'Favorit', sans-serif;
+  font-size: 15px;
   z-index: 1003;
 }
 
@@ -59,25 +90,20 @@ display: none;
 
 #scroller {
   position: absolute;
-  width: 84.5%;
   bottom: 10%;
+  width: 93%;
+  z-index: 1006;
+  top: 10%;
 }
-
-#footer {
-  position: absolute;
-  bottom: 5%;
-  font-size: 11px;
-  z-index: 1005;
-}
-
 
 .scrolling-wrapper {
   position: absolute;
-  left: 15%;
+  left: 6%;
   top: 10%;
   bottom: 10%;
   height: 85%;
-  width: auto;
+  width: 100%;
+  z-index: 1005;
   overflow-x: scroll;
   float: left;
   align-content: center;
@@ -88,6 +114,15 @@ display: none;
    display: none;
  }
 }
+
+#footer {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  font-size: 11px;
+  z-index: 1005;
+}
+
 
 img {
     object-fit: contain;
@@ -117,31 +152,7 @@ h1{
   left:30%;
 }
 
-#contatti {
-  position: absolute;
-  top: 5%;
-  left: 30%;
-  font-size: 90px;
-  top: 0%;
-  left: 20%;
-  font-size: 15px;
-  line-height: 1.6;
-  text-align: justify;
-  max-width: 460px;
-  padding-right: 500px;
-}
 
-#contattidx {
-  position: absolute;
-  top: 0;
-  left: 0%;
-  font-size: 15px;
-  line-height: 1.6;
-  text-align: justify;
-  max-width: 460px;
-  padding-right: 100px;
-  padding-left: 20px;
-}
 
 #contattimobile {
   position: fixed;
@@ -166,16 +177,6 @@ h1{
   width: 80%;
   height: auto;
 }
-
-#titolo {
-  position: relative;
-  top: -6%;
-  left: -1.5%;
-  width: 8%;
-  height: 8%;
-  z-index: 1013;
-}
-
 
 .spiega {
   position: relative;
