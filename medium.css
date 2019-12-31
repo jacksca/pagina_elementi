@@ -22,7 +22,9 @@ a {
   }
 
 
-
+  #email {
+    display: none;
+  }
 
 
 #swipe {

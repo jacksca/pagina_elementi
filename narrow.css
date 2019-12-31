@@ -125,6 +125,10 @@ a {
   max-width: 400px;
 }
 
+#email {
+  display: none;
+}
+
 img {
     height: 60%;
     width: auto;
